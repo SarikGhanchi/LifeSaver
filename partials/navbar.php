@@ -10,9 +10,8 @@
         <li class="nav-item"><a class="nav-link" href="aboutus.php">About Us</a></li>
         <li class="nav-item"><a class="nav-link" href="contactus.php">Contact</a></li>
         <li class="nav-item"><a class="nav-link" href="report.php">Report</a></li>
-        <li class="nav-item"><a class="nav-link btn btn-light text-danger ms-2" href="admin/admin_login.php">Admin Login</a></li>
         <li class="nav-item"><a class="nav-link btn btn-light text-danger ms-2" href="login.php">Login</a></li>
-
+        
       </ul>
     </div>
   </div>

@@ -45,7 +45,5 @@ $result = mysqli_query($conn, $sql);
         </tbody>
     </table>
 </div>
-
-<?php include 'partials/footer.php'; ?>
 </body>
 </html>

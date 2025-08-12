@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include '../partials/dbconnect.php';
 
 if (!isset($_SESSION['admin_loggedin'])) {
