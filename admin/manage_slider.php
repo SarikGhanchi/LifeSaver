@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include '../partials/dbconnect.php';
 
 // Fetch existing sliders from the database

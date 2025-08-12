@@ -17,8 +17,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $result = mysqli_stmt_get_result($stmt);
 
             if ($row = mysqli_fetch_assoc($result)) {
-                // ✅ Verify password
-                if (password_verify($password, $row['password'])) {
+                // ❌ No hashing — plain text comparison
+                if ($password === $row['password']) {
                     $_SESSION['admin_loggedin'] = true;
                     $_SESSION['admin_name'] = $username;
                     header("Location: dashboard.php");
